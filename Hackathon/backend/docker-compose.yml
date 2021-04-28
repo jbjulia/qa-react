@@ -1,0 +1,27 @@
+version: "3"
+services:
+  app:
+    container_name: cinemabackendapi
+    restart: on-failure
+    image: qawebdev/node_cinema
+    working_dir: "/"
+    command: npm start
+    ports:
+      - "443:4000"
+    volumes:
+      - .:/app
+    links:
+      - mongo
+    depends_on:
+      - mongo
+  mongo:
+    container_name: mongo2
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/db:/data/db
+      # The path here needs to data/db needs to be in \Users for a Windows system
+      # VirtualBox version 6.0.8 needs to be installed for this to work also
+      # On Linux/MacOS based systems, replace the path to \data\db with $(PWD)
+      

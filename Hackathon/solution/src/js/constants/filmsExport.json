@@ -1,0 +1,66 @@
+{
+  "_id": {
+    "$oid": "5c9e51c24c6ee53ff09d5d01"
+  },
+  "title": "Test Film 1",
+  "synopsis": " Test Film 1 Synopsis",
+  "cast": "Test Film 1 Cast",
+  "directors": "Test Film 1 Directors",
+  "showingTimes": "11:45, 13:30, 17:15, 20:45",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1558915200000"
+    }
+  },
+  "filmStatus": {
+    "$numberInt": "1"
+  },
+  "img": "film1Image.jpg",
+  "__v": {
+    "$numberInt": "0"
+  }
+}
+{
+  "_id": {
+    "$oid": "5c9e51c24c6ee53ff09d5d02"
+  },
+  "title": "Test Film 2",
+  "synopsis": " Test Film 2 Synopsis",
+  "cast": "Test Film 2 Cast",
+  "directors": "Test Film 2 Directors",
+  "showingTimes": "11:45, 13:30, 17:15, 20:45",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1572134400000"
+    }
+  },
+  "filmStatus": {
+    "$numberInt": "1"
+  },
+  "img": "film2Image.jpg",
+  "__v": {
+    "$numberInt": "0"
+  }
+}
+{
+  "_id": {
+    "$oid": "5c9e51c24c6ee53ff09d5d03"
+  },
+  "title": "Test Film 3",
+  "synopsis": " Test Film 3 Synopsis",
+  "cast": "Test Film 3 Cast",
+  "directors": "Test Film 3 Directors",
+  "showingTimes": "11:45, 13:30, 17:15, 20:45",
+  "releaseDate": {
+    "$date": {
+      "$numberLong": "1558915200000"
+    }
+  },
+  "filmStatus": {
+    "$numberInt": "1"
+  },
+  "img": "film3Image.jpg",
+  "__v": {
+    "$numberInt": "0"
+  }
+}
